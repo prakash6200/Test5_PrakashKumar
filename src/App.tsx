@@ -5,6 +5,7 @@ import AMLForm from './pages/AML/AmlForm'
 import AadharKYCForm from './pages/KYC/KycForm'
 import OTP from './Authentication/Otp/Otp'
 import OneStep from './Authentication/One_step/OneStep'
+import Metamask from './pages/ERC20/transfer'
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
@@ -26,6 +27,7 @@ function App() {
         <Route path="/otp" element={<OTP />} />
         <Route path="/OneStep" element={<OneStep />} />
         <Route path="/" element={<LoginPage />} />
+        <Route path="/dapp" element={<Metamask />} />
 
       </Routes>
     </Router>
