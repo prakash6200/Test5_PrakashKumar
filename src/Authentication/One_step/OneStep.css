@@ -1,0 +1,51 @@
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://img.freepik.com/free-vector/realistic-vector-background-blue-night-sky-with-sparkling-glowing-stars_134830-1386.jpg?t=st=1739103139~exp=1739106739~hmac=29160f805e0e2c1aa4c2c42675f8fee9fb16a1b7179152060af971fdd9b37f37&w=826");
+}
+.navbar{
+    padding: 10px;
+}
+.navbar-header{
+    color: white;
+    display: flex;
+}
+.navbar-header p{
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 5px;
+
+}
+.download{
+    background-color: #27a7e6;
+    border: none;
+   margin-top:5px;
+   margin-right: 20px;
+   padding: 10px 25px;
+   color: white;
+   font-weight: 500;
+   border-radius: 40px;
+   font-size: 15px;
+}
+.popup{
+    width: 400px;
+    height: 250px;
+    background-color: #222222;
+    margin: 50px auto;
+    border-radius: 5px;
+    color: white;
+    padding-top: 10px;
+    text-align: center;
+}
+#steppara{
+    font-size: 17px;
+    padding: 10px;
+}
+button{
+    background-color: #27a7e6;
+    border: none;
+    padding: 10px 20px ;
+    border-radius: 50px;
+    font-weight: 500;
+
+}

@@ -1,0 +1,72 @@
+body{
+    background:#121214;
+    color:#FFFFFF;
+    font-family: 'Playfair Display', serif;
+}
+.form{
+    width: 600px;
+    height: 500px;
+    border: 0.5px solid grey ;
+    border-radius: 10px ;
+    margin: 50px auto;
+}
+
+.form-heading{
+ text-align: center;
+ padding-top: 20px;
+ font-family: 'Times New Roman, Times, serif,Garamond, Playfair Display';
+} 
+#otp-para{
+    text-align: center;
+    padding-top:10px;
+    color: gray;
+}
+.border{
+    margin: 30px auto;
+    width: 480px;
+    border: 0.6px solid gray;
+}
+.proceed-center{
+    text-align: center;
+}
+.proceed-button button{
+    width: 400px;
+   background-color:#a18134 ; 
+    /* background-image: radial-gradient(#a18134,#f0ae11, #a18134); */
+    border: 1px solid #a18134 ;
+    padding: 10px;
+    border-radius:5px ;
+    font-weight: 900;
+    margin-top: 20px;
+}
+.proceed-button u{
+color:#a18134 ;
+font-weight: 900;
+}
+.box-div{
+    width: 400px;
+    text-align: center;
+    margin: 0px auto;
+}
+.boxes{
+    display: flex;
+}
+.box{
+    width: 30px;
+    height: 30px;
+    border:1px solid gray;
+    border-radius: 5px;
+    margin-left: 15px;
+    padding: 10px;
+    margin-top: 10px;
+  
+}
+.terms-conditions{
+    text-align: center;
+}
+
+.terms-conditions u{
+    color:#a18134 ; 
+    font-weight: 900;
+    
+}

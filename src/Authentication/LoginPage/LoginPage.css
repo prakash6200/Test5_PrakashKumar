@@ -1,0 +1,154 @@
+body {
+    background: #121214;
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.form {
+    width: 90%;
+    max-width: 700px;
+    background: #1a1a1d;
+    padding: 20px;
+    border: 0.5px solid grey;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.form-heading h1 {
+    color: white;
+    font-size: 2rem;
+}
+
+.form-heading p {
+    color: rgb(200, 190, 190);
+}
+
+.second-heading h3 {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.second-heading p {
+    color: rgb(200, 190, 190);
+}
+
+.messenger {
+    margin-top: 20px;
+}
+
+.messenger p {
+    color: white;
+}
+
+.messenger-icon {
+    width: 50px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.messenger-icon:hover {
+    transform: scale(1.1);
+}
+
+.recovery {
+    color: #a18134;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+.help-center {
+    margin-top: 20px;
+    color: rgb(200, 190, 190);
+}
+
+.help-button button {
+    width: 100%;
+    max-width: 400px;
+    background-color: #a18134;
+    border: 1px solid #a18134;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 900;
+    color: white;
+    transition: background 0.3s;
+}
+
+.help-button button:hover {
+    background-color: #f0ae11;
+}
+
+.terms-conditions {
+    margin-top: 20px;
+    text-align: center;
+    color: rgb(200, 190, 190);
+}
+
+.btn-gold {
+    width: 100%;
+    max-width: 400px;
+    background-color: #a18134;
+    border: 1px solid #a18134;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 900;
+    color: white;
+    transition: background 0.3s;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn-gold:hover {
+    background-color: #f0ae11;
+}
+
+/* 🔹 Responsive Design */
+@media (max-width: 768px) {
+    .form {
+        width: 95%;
+        padding: 15px;
+    }
+
+    .form-heading h1 {
+        font-size: 1.8rem;
+    }
+
+    .messenger-icon {
+        width: 40px;
+    }
+
+    .help-button button, .btn-gold {
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    .form {
+        width: 100%;
+    }
+
+    .form-heading h1 {
+        font-size: 1.5rem;
+    }
+
+    .second-heading h3 {
+        font-size: 1.2rem;
+    }
+
+    .messenger-icon {
+        width: 35px;
+    }
+
+    .help-button button, .btn-gold {
+        width: 100%;
+    }
+}
